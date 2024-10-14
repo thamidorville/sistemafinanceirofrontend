@@ -33,8 +33,9 @@ Pré-requisitos
 Antes de rodar o projeto, você precisa ter o Node.js instalado. Se ainda não tiver, você pode baixar e instalar a partir do: 
 https://nodejs.org/en/download/prebuilt-installer
 
-** Configurar o Arquivo .env.local no 
-Ao clonar o projeto frontend, o arquivo .env.local não será baixado porque está incluído no .gitignore. Portanto, crie um arquivo .env.local na raiz do seu projeto frontend e adicione a seguinte linha:
+** Configurar o Arquivo .env.local 
+Ao clonar o projeto frontend, o arquivo .env.local não será baixado porque está incluído no .gitignore.
+Portanto, crie um arquivo .env.local na raiz do seu projeto frontend e adicione a seguinte linha:
 `` NEXT_PUBLIC_API_URL=http://localhost:5057
 
 ** Configurar a Porta do Swagger na API back end: https://github.com/thamidorville/sistemafinanceirobackend
