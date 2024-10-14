@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sistema de Gerenciamento Financeiro Pessoal
 
-## Getting Started
+Este é um sistema de **Gerenciamento Financeiro Pessoal** desenvolvido com **React** e **TypeScript**, utilizando **Chakra UI** para o design da interface. O projeto tem como objetivo permitir a gestão de receitas e despesas, além de exibir gráficos detalhados sobre o desempenho financeiro mensal.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
+- Exibição de gráficos de **despesas mensais**, **receitas mensais** e **resumo mensal**.
+- Permite **adicionar, editar, excluir e filtrar** receitas e despesas.
+- **Geração de relatórios** com lista de despesas e receitas por período.
+- Design moderno e responsivo utilizando **Chakra UI**.
+- Desenvolvido com **React TypeScript** para garantir maior robustez e segurança no desenvolvimento.
+
+## Tecnologias Utilizadas
+- **Next.js** (framework React para server-side rendering e rotas avançadas)
+- **React** (com TypeScript)
+- **Chakra UI** (para estilização)
+- **React ChartJS 2** (para gráficos)
+- **Axios** (para requisições HTTP)
+- **Git** (controle de versão)
+
+## Como Clonar o Repositório
+
+Abra o terminal e execute o seguinte comando para clonar o repositório:
+
+   ```bash
+   git clone https://github.com/thamidorville/sistemafinanceirofrontend.git
+   cd sistema-financeiro-frontend
+
+## Como Rodar o Projeto
+Pré-requisitos
+Antes de rodar o projeto, você precisa ter o Node.js instalado. Se ainda não tiver, você pode baixar e instalar a partir do: 
+https://nodejs.org/en/download/prebuilt-installer
+
+## Instalação
+yarn install
+
+## Iniciar o servidor de desenvolvimento
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto estará rodando no endereço: http://localhost:3000.
