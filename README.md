@@ -7,8 +7,8 @@ Este é um sistema de **Gerenciamento Financeiro Pessoal** desenvolvido com **Re
 - Exibição de gráficos de **despesas mensais**, **receitas mensais** e **resumo mensal**.
 - Permite **adicionar, editar, excluir e filtrar** receitas e despesas.
 - **Geração de relatórios** com lista de despesas e receitas por período.
-- Design moderno e responsivo utilizando **Chakra UI**.
-- Desenvolvido com **React TypeScript** para garantir maior robustez e segurança no desenvolvimento.
+- Design responsivo utilizando **Chakra UI**.
+- Desenvolvido com **React TypeScript Next.js**.
 
 ## Tecnologias Utilizadas
 - **Next.js** (framework React para server-side rendering e rotas avançadas)
