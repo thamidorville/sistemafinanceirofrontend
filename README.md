@@ -46,6 +46,8 @@ então ajuste o launchSettings.json para a seguinte configuração:
 `` "launchUrl": "swagger",
 "applicationUrl": "http://localhost:5058"
 
+** No front:
+
 ## Instalação
 yarn install
 
