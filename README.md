@@ -18,6 +18,8 @@ Este é um sistema de **Gerenciamento Financeiro Pessoal** desenvolvido com **Re
 - **Axios** (para requisições HTTP)
 - **Git** (controle de versão)
 
+## Projeto Back End: https://github.com/thamidorville/sistemafinanceirobackend
+
 ## Como Clonar o Repositório
 
 Abra o terminal e execute o seguinte comando para clonar o repositório:
@@ -30,6 +32,18 @@ Abra o terminal e execute o seguinte comando para clonar o repositório:
 Pré-requisitos
 Antes de rodar o projeto, você precisa ter o Node.js instalado. Se ainda não tiver, você pode baixar e instalar a partir do: 
 https://nodejs.org/en/download/prebuilt-installer
+
+** Configurar o Arquivo .env.local no 
+Ao clonar o projeto frontend, o arquivo .env.local não será baixado porque está incluído no .gitignore. Portanto, crie um arquivo .env.local na raiz do seu projeto frontend e adicione a seguinte linha:
+`` NEXT_PUBLIC_API_URL=http://localhost:5057
+
+** Configurar a Porta do Swagger na API back end: https://github.com/thamidorville/sistemafinanceirobackend
+No projeto backend, ajuste a porta do Swagger no arquivo launchSettings.json.
+O Swagger não roda junto com o dotnet run no Visual Studio,
+então ajuste o launchSettings.json para a seguinte configuração:
+
+`` "launchUrl": "swagger",
+"applicationUrl": "http://localhost:5058"
 
 ## Instalação
 yarn install
